@@ -36,7 +36,7 @@ void Print(NodeList head)                   //单链表输出
         return;
     NodeList p = head->next;
     while (p != NULL) {
-        cout<<p->data<<" ";
+        printf("%4d",p->data);
         p = p->next;
         if ((i+1)%5 == 0){
             cout<<endl;
@@ -48,14 +48,13 @@ void Print(NodeList head)                   //单链表输出
 
 void DeletElem(NodeList &head,SqList &T)        //单链表删除
 {
-    int i = 0;
-    NodeList p,q,r,temp;
+    int i = 0,j = 0;
+    NodeList p,q;
     NodeList s = head;
     T.size = 1000;
     T.elem = (int*)malloc(T.size * sizeof(int));
     T.len = 0;
     p = s->next;
-    int flag = 0;
     while(p != NULL)
     {
         q = p;
@@ -63,31 +62,16 @@ void DeletElem(NodeList &head,SqList &T)        //单链表删除
         {
             if(q->next->data == p->data)
             {
-                flag = 1;
-                r = q->next;
-                q->next = r->next;
-                free(r);
-                T.elem[T.len++] = p->data+i*100;
+                q->next = q->next->next;
+                T.elem[T.len++] = p->data+(i+j+1)*100;
+
             }
-            else
-            {
-                q = q->next;
-            }
+            q = q->next;
+            j++;
         }
-        if (flag == 0)
-        {
-            s = p;
-            p = p->next;
-        }
-        else
-        {
-            flag = 0;
-            temp = p;
-            p = p->next;
-            s->next = p;
-            free(temp);
-        }
+        j = 0;
         i++;
+        p = p->next;
     }
 }
 
@@ -101,7 +85,7 @@ void CreatList(SqList &L,int n){            //顺序表创建
 
 void PrintList(SqList L){                   //顺序表输出
     for (int i = 0; i < L.len; ++i) {
-        cout<<L.elem[i]<<" ";
+        printf("%4d",L.elem[i]);
         if ((i+1)%5 == 0){
             cout<<endl;
         }
@@ -118,7 +102,7 @@ void DeletElem(SqList &L,SqList &T){        //顺序表删除
                 for (int k = j; k < L.len - 1; ++k) {
                     L.elem[k] = L.elem[k+1];
                 }
-                T.elem[T.len++] = L.elem[i]+i*100;
+                T.elem[T.len++] = L.elem[i]+j*100;
                 L.len--;
             }
         }
@@ -127,24 +111,28 @@ void DeletElem(SqList &L,SqList &T){        //顺序表删除
 
 void ReverseLink(NodeList &Head)          //单链表倒置
 {
-    if (NULL == Head)
+    int flag=0;
+    if (Head == NULL)
     {
         return;
     }
-    NodeList pNode = Head;
+    NodeList pNode = Head->next;
     NodeList Prev = NULL;
     NodeList pNext = NULL;
-    while (pNode != NULL)
-    {
+    while (pNode != NULL){
         pNext = pNode->next;
-        if (pNext == NULL)
-        {
+        if (pNext == NULL){
             Head = pNode;
         }
+
         pNode->next = Prev;
         Prev = pNode;
         pNode = pNext;
+
     }
+    NodeList p = (NodeList)malloc(sizeof(int));
+    p->next = Head;
+    Head = p;
 }
 
 int main()
@@ -152,40 +140,40 @@ int main()
     int n,*a;
     SqList T;
     cin>>n;
-//    //TODO:删除顺序表中的重复元素
-//    SqList L;
-//    CreatList(L,n);
-//    cout<<"顺序表创建完成:"<<endl;
-//    PrintList(L);
-//    DeletElem(L,T);
-//    cout<<"顺序表删除完成:"<<endl;
-//    PrintList(L);
-//    if (T.len != 0){
-//        cout<<"删除的元素为:"<<endl;
-//        for (int i = 0; i < T.len; ++i) {
-//            cout<<"原位置为:"<<T.elem[i]/100+1<<"->"<<T.elem[i]%100<<" ";
-//            cout<<endl;
-//        }
-//    } else{
-//        cout<<"无重复元素"<<endl;
-//    }
+    //TODO:删除顺序表中的重复元素
+    SqList L;
+    CreatList(L,n);
+    cout<<"顺序表创建完成:"<<endl;
+    PrintList(L);
+    DeletElem(L,T);
+    cout<<"顺序表删除完成:"<<endl;
+    PrintList(L);
+    if (T.len != 0){
+        cout<<"删除的元素为:"<<endl;
+        for (int i = 0; i < T.len; ++i) {
+            cout<<"原位置为:"<<T.elem[i]/100+1<<"->"<<T.elem[i]%100<<" ";
+            cout<<endl;
+        }
+    } else{
+        cout<<"无重复元素"<<endl;
+    }
     //TODO:删除链表中的重复元素
     NodeList head;
     createEnd(head,n);
     cout<<"单链表创建完成:"<<endl;
     Print(head);
-//    DeletElem(head,T);
-//    cout<<"单链表删除完成:"<<endl;
-//    Print(head);
-//    if (T.len != 0){
-//        cout<<"删除的元素为:"<<endl;
-//        for (int i = 0; i < T.len; ++i) {
-//            cout<<"原位置为:"<<T.elem[i]/100+1<<"->"<<T.elem[i]%100<<" ";
-//            cout<<endl;
-//        }
-//    } else{
-//        cout<<"无重复元素"<<endl;
-//    }
+    DeletElem(head,T);
+    cout<<"单链表删除完成:"<<endl;
+    Print(head);
+    if (T.len != 0){
+        cout<<"删除的元素为:"<<endl;
+        for (int i = 0; i < T.len; ++i) {
+            cout<<"原位置为:"<<T.elem[i]/100+1<<"->"<<T.elem[i]%100<<" ";
+            cout<<endl;
+        }
+    } else{
+        cout<<"无重复元素"<<endl;
+    }
     //TODO:单链表的逆置
     ReverseLink(head);
     cout<<"单链表逆置完成:"<<endl;
