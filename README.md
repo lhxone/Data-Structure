@@ -19,13 +19,20 @@
 
 ### Before — 10.2
 
-#### 源代码点一下右侧➡️[SourceCode](https://github.com/lhxone/Data-Structure/blob/master/before.cpp)
+#### 源代码点一下右侧➡️[SourceCode1](https://github.com/lhxone/Data-Structure/blob/master/before-1.cpp)	[SourceCode1](https://github.com/lhxone/Data-Structure/blob/master/before-2.cpp)
 
-* 顺序表的创立
-* 顺序表的随机初始化
-* 顺序表的定位
-* 顺序表插入删除以及定位元素
-* 求顺序表的交集与并集
+
+1. Before-1
+	* 顺序表的创立
+	* 顺序表的随机初始化（头插法以及尾插法）
+	* 顺序表的定位
+	* 顺序表插入删除以及定位元素
+	* 求顺序表的交集与并集
+
+2. Before-2
+	* 双链表的建立
+	* 双链表的随机初始化
+	* 双链表的插入删除与合并
 
 *****
 
