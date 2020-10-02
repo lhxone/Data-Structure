@@ -12,9 +12,10 @@
 ```
 
 *****
+
 ### 10.2上机作业：
 
-**** [SourceCode](https://github.com/lhxone/Data-Structure/blob/master/10.2作业.cpp)
+#### [SourceCode](https://github.com/lhxone/Data-Structure/blob/master/10.2作业.cpp)
 
 1. 
 	* 顺序表中删除重复元素
