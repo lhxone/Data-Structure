@@ -15,7 +15,7 @@
 
 ### 10.2上机作业：
 
-#### [SourceCode](https://github.com/lhxone/Data-Structure/blob/master/10.2作业.cpp)
+#### 源代码点一下右侧➡️[SourceCode](https://github.com/lhxone/Data-Structure/blob/master/10.2作业.cpp)
 
 1. 
 	* 顺序表中删除重复元素
