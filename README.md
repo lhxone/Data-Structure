@@ -14,9 +14,11 @@
 *****
 ### 10.2上机作业：
 
+**** [SourceCode](https://github.com/lhxone/Data-Structure/blob/master/10.2作业.cpp)
+
 1. 
 	* 顺序表中删除重复元素
+	![avatar](https://github.com/lhxone/Data-Structure/raw/master/10.2.1.png)
 	* 单链表中删除重复元素
 2. 单链表的逆置
 
-![avatar](https://github.com/lhxone/Data-Structure/raw/master/10.2.1.png)
