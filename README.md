@@ -25,7 +25,7 @@
 
 ### Before — 10.2
 
-#### 源代码点一下右侧➡️[SourceCode1](https://github.com/lhxone/Data-Structure/blob/master/before-1.cpp)	[SourceCode1](https://github.com/lhxone/Data-Structure/blob/master/before-2.cpp)
+#### 源代码点一下右侧➡️[SourceCode1](https://github.com/lhxone/Data-Structure/blob/master/before-1.cpp)	[SourceCode2](https://github.com/lhxone/Data-Structure/blob/master/before-2.cpp)
 
 
 1. Before-1
