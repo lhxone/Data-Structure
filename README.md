@@ -6,7 +6,7 @@
 
 ```
     function fun(){
-         echo "这是一个很牛逼的代码库。";
+         echo "这是一个Lhxone的数据结构代码库。";
     }
     fun();
 ```
