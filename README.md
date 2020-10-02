@@ -19,4 +19,4 @@
 	* 单链表中删除重复元素
 2. 单链表的逆置
 
-![avatar](10.2.1.png)
+![avatar](https://github.com/lhxone/Data-Structure/raw/master/10.2.1.png)
