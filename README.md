@@ -16,6 +16,19 @@
 
 *****
 
+
+### Before — 10.2
+
+#### 源代码点一下右侧➡️[SourceCode](https://github.com/lhxone/Data-Structure/blob/master/before.cpp)
+
+* 顺序表的创立
+* 顺序表的随机初始化
+* 顺序表的定位
+* 顺序表插入删除以及定位元素
+* 求顺序表的交集与并集
+
+*****
+
 ### 10.2上机作业：
 
 #### 源代码点一下右侧➡️[SourceCode](https://github.com/lhxone/Data-Structure/blob/master/10.2作业.cpp)
