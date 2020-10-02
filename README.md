@@ -4,6 +4,9 @@
 
 ### This is a notebook written by `Lhxone`, which is used to daily mark the code. 
 
+### I sincerely hope you can start this repository or point out the mistake or error.You can contact with me by <real.lhx@icloud.com>. 
+
+
 ```
     function fun(){
          echo "这是一个Lhxone的数据结构代码库。";
