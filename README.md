@@ -19,7 +19,8 @@
 
 1. 
 	* 顺序表中删除重复元素
-	![avatar](https://github.com/lhxone/Data-Structure/raw/master/10.2.1.png)
+	![顺序表](https://github.com/lhxone/Data-Structure/raw/master/10.2.1.png)
 	* 单链表中删除重复元素
+	![链表](https://github.com/lhxone/Data-Structure/raw/master/10.2.2.png)
 2. 单链表的逆置
 
