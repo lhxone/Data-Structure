@@ -51,5 +51,5 @@
 	* 单链表中删除重复元素
 2. 单链表的逆置
 
-![运行截图](https://github.com/lhxone/Data-Structure/raw/master/10.2.2.png)
+![运行截图](https://github.com/lhxone/Data-Structure/raw/master/10.2.4.png)
 
