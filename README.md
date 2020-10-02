@@ -1,14 +1,15 @@
 # Data-Structure
 
+
+[](https://img.shields.io/badge/Lhxone-CodeLib-00BFFF)
+
+
 *****
 
 ### This is a notebook written by `Lhxone`, which is used to daily mark the code. 
 
 ### I sincerely hope you can star this repository or point out the mistake or error.You can contact with me by <real.lhx@icloud.com>.
 
-[](https://img.shields.io/badge/Lhxone-CodeLib-00BFFF)  
-
-[](https://img.shields.io/badge/IMU-00BFFF)
 
 
 ```
