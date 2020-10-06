@@ -21,7 +21,9 @@
     }
     fun();
 ```
+> 友情链接⬇️
 
+[![](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2163258382,1029266130&fm=26&gp=0.jpg)](https://github.com/zhaoolee/ChineseBQB)
 
 *****
 
