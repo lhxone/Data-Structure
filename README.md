@@ -71,3 +71,7 @@
 
 栈满的条件：top-base == stacksize;
 
+1. 初始化栈
+	![](https://github.com/lhxone/Data-Structure/raw/master/10.6.2.jpeg)
+2. 
+
