@@ -28,11 +28,17 @@
 > 友情链接⬇️
 >> 点一下图片就能进入
 
-[![滑稽表情包](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2163258382,1029266130&fm=26&gp=0.jpg)](https://github.com/zhaoolee/ChineseBQB)
+<div align="center">
+    <a href="https://github.com/zhaoolee/ChineseBQB"><img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2163258382,1029266130&fm=26&gp=0.jpg"></a>
+    <small>滑稽表情包</small>
+</div>
 
 *****
 
-<a href="https://www.bilibili.com/video/BV1fc41187xA"><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2001773072,2240352109&fm=26&gp=0.jpg" width="60%" align="center"></a>
+<div align="center">
+    <a href="https://www.bilibili.com/video/BV1fc41187xA"><img src="https://github.com/lhxone/Data-Structure/raw/master/img/git.png" width=""></a>
+    <small>开哥语录</small>
+</div>
 
 *****
 
@@ -142,3 +148,7 @@
     }
 ```
 
+<div align="center">
+    <img src="https://github.com/lhxone/Data-Structure/raw/master/img/git.png">
+    <h2>别看了，到底了，一滴都不剩了</h2>
+</div>
