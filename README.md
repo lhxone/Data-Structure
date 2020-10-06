@@ -23,7 +23,9 @@
 ```
 > 友情链接⬇️
 
-[![](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2163258382,1029266130&fm=26&gp=0.jpg)](https://github.com/zhaoolee/ChineseBQB)
+[![滑稽表情包](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2163258382,1029266130&fm=26&gp=0.jpg)](https://github.com/zhaoolee/ChineseBQB)
+
+[![开哥语录](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2001773072,2240352109&fm=26&gp=0.jpg)](https://www.bilibili.com/video/BV1fc41187xA)
 
 *****
 
