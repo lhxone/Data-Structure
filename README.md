@@ -86,7 +86,7 @@
 	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.5.jpeg" width="50%" align="center">
 
 
-#### 练习：十进制n转为r进制数
+#### 练习一：十进制n转为r进制数
 
 ```cpp
     int n,d,r;
@@ -100,6 +100,26 @@
     while (!s.empty()){
         std::cout<<s.top();
         s.pop();
+    }
+```
+
+#### 练习二：括号匹配
+
+```cpp
+	char a[20];
+    std::stack<char>(s);
+    cin>>a;
+    for (int i = 0; a[i]!='\0'; ++i) {
+        if (a[i] == '('){
+            s.push(a[i]);
+        } else if (a[i] == ')'){
+            s.pop();
+        }
+    }
+    if (s.empty()){
+        cout<<"匹配";
+    } else{
+        cout<<"不匹配";
     }
 ```
 
