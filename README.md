@@ -67,18 +67,22 @@
 >栈满的条件：top-base == stacksize;
 
 1. 初始化栈
+
 	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.2.png" width="50%" align="center">
 
 
 2. 获取栈顶元素 top()
+
 	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.3.jpeg" width="50%" align="center">
 
 
 3. 入栈 push()
+
 	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.4.jpeg" width="50%" align="center">
 
 
 4. 出栈 pop()
+
 	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.5.jpeg" width="50%" align="center">
 
 
