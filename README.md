@@ -59,3 +59,15 @@
 
 ![运行截图//可能会挂](https://github.com/lhxone/Data-Structure/raw/master/10.2.4.png)
 
+*****
+
+### 10.6栈与队列
+
+#### 栈
+
+栈不存在的条件：base == NULL;
+
+栈为空的条件： base == top;
+
+栈满的条件：top-base == stacksize;
+
