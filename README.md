@@ -11,7 +11,7 @@
 
 ### I sincerely hope you can star this repository or point out the mistake or error.You can contact with me by <real.lhx@icloud.com>.
 
-### Welcome, the <img border="0" src="http://cc.amazingcounters.com/counter.php?i=3245838&c=9737827" alt="Visitor"> th Visitor.
+### Welcome, the <a href = "https://github.com/lhxone/Data-Structure"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3245838&c=9737827" alt="Visitor"></a> th Visitor.
 
 
 ```javascript
