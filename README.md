@@ -65,6 +65,8 @@
 
 #### 栈
 
+![](https://github.com/lhxone/Data-Structure/raw/master/10.6.1.jpeg)
+
 栈不存在的条件：base == NULL;
 
 栈为空的条件： base == top;
@@ -72,6 +74,6 @@
 栈满的条件：top-base == stacksize;
 
 1. 初始化栈
-	![](https://github.com/lhxone/Data-Structure/raw/master/10.6.2.jpeg)
+	![](https://github.com/lhxone/Data-Structure/raw/master/10.6.2.png)
 2. 
 
