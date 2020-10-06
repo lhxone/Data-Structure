@@ -21,11 +21,19 @@
     }
     fun();
 ```
+
+*****
+
+
 > 友情链接⬇️
+>> 点一下图片就能进入
 
 [![滑稽表情包](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2163258382,1029266130&fm=26&gp=0.jpg)](https://github.com/zhaoolee/ChineseBQB)
 
-[![开哥语录](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2001773072,2240352109&fm=26&gp=0.jpg)](https://www.bilibili.com/video/BV1fc41187xA)
+
+[![Sorry!](https://camo.githubusercontent.com/0a541fde395acf6fa4d2a8ef02f421b0dfb90aa3/68747470733a2f2f646e2d636f64696e672d6e65742d70726f64756374696f6e2d70702e71626f782e6d652f66356265623831612d616266392d343234622d613932652d3632356230303864333062372e676966)](https://github.com/xtyxtyx/sorry)
+
+<a href="https://www.bilibili.com/video/BV1fc41187xA"><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2001773072,2240352109&fm=26&gp=0.jpg"></a>
 
 *****
 
