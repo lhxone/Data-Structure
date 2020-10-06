@@ -107,29 +107,21 @@
 
 ```cpp
     char a[20];
-    std::stack<char>(s1);
-    std::stack<char>(s2);
-    std::stack<char>(s3);
+    std::stack<char>(s);
     cin>>a;
-    for (int i = 0; a[i]!='\0'; ++i) {
-        if (a[i] == '('){
-            s1.push(a[i]);
-        } else if (a[i] == ')'){
-            s1.pop();
-        } else if (a[i] == '['){
-            s2.push(a[i]);
-        } else if (a[i] == ']'){
-            s2.pop();
-        } else if (a[i] == '{'){
-            s3.push(a[i]);
-        } else if (a[i] == '}'){
-            s3.pop();
+    for (int i = 0; a[i] != '\0'; ++i) {
+        if (s.empty()){
+            s.push(a[i]);
+        } else if (((s.top() == '(')&&(a[i] == ')'))||((s.top() == '[')&&(a[i] == ']'))||((s.top() == '{')&&(a[i] == '}'))){
+            s.pop();
+        } else if (a[i] == '('||a[i] == '['||a[i] == '{'){
+            s.push(a[i]);
         }
     }
-    if (s1.empty()&&s2.empty()&&s3.empty()){
-        cout<<"匹配";
+    if (s.empty()){
+        cout<<"YES";
     } else{
-        cout<<"不匹配";
+        cout<<"NO";
     }
 ```
 
