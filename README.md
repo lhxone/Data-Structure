@@ -20,11 +20,6 @@
     fun();
 ```
 
-*****
-
-# 别 抄 哇
-
-# 这是C++写的，在VC上不能运行的
 
 *****
 
@@ -57,7 +52,7 @@
 	* 单链表中删除重复元素
 2. 单链表的逆置
 
-![运行截图//可能会挂](https://github.com/lhxone/Data-Structure/raw/master/10.2.4.png)
+<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.2.4.png" width="50%">
 
 *****
 
@@ -65,15 +60,19 @@
 
 #### 栈
 
-![](https://github.com/lhxone/Data-Structure/raw/master/10.6.1.jpeg)
+<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.1.jpeg" width="50%">
 
-栈不存在的条件：base == NULL;
-
-栈为空的条件： base == top;
-
-栈满的条件：top-base == stacksize;
+> 栈不存在的条件：base == NULL;
+>栈为空的条件： base == top;
+>栈满的条件：top-base == stacksize;
 
 1. 初始化栈
-	![](https://github.com/lhxone/Data-Structure/raw/master/10.6.2.png)
-2. 
+	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.2.png" width="50%">
+2. 获取栈顶元素 top()
+	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.3.jpeg" width="50%">
+3. 入栈 push()
+	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.4.jpeg" width="50%">
+4. 出栈 pop()
+	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.4.jpeg">
+
 
