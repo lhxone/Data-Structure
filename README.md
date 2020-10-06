@@ -13,7 +13,7 @@
 
 
 
-```
+```javascript
     function fun(){
          echo "这是一个Lhxone的数据结构代码库。";
     }
@@ -85,4 +85,21 @@
 
 	<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.6.5.jpeg" width="50%" align="center">
 
+
+#### 练习：十进制n转为r进制数
+
+```cpp
+    int n,d,r;
+    std::stack<int>(s);
+    std::cin>>n>>r;
+    while (n!=0){
+        d = n%r;
+        n = n/r;
+        s.push(d);
+    }
+    while (!s.empty()){
+        std::cout<<s.top();
+        s.pop();
+    }
+```
 
