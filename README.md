@@ -11,7 +11,7 @@
 
 ### I sincerely hope you can star this repository or point out the mistake or error.You can contact with me by <real.lhx@icloud.com>.
 
-### Welcome, the <div align="center"><a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3245838&c=9737827" alt="AmazingCounters.com"></a></div> th Visitor.
+### Welcome, the <img border="0" src="http://cc.amazingcounters.com/counter.php?i=3245838&c=9737827" alt="Visitor"> th Visitor.
 
 
 ```javascript
