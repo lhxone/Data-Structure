@@ -106,7 +106,7 @@
 #### 练习二：括号匹配
 
 ```cpp
-	char a[20];
+    char a[20];
     std::stack<char>(s);
     cin>>a;
     for (int i = 0; a[i]!='\0'; ++i) {
