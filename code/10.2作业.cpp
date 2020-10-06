@@ -49,7 +49,7 @@ void Print(NodeList head)                   //单链表输出
 void DeletElem(NodeList &head,SqList &T)        //单链表删除
 {
     int i = 0,j = 0;
-    NodeList p,q;
+    NodeList p,q,temp;
     NodeList s = head;
     T.size = 1000;
     T.elem = (int*)malloc(T.size * sizeof(int));
@@ -62,9 +62,10 @@ void DeletElem(NodeList &head,SqList &T)        //单链表删除
         {
             if(q->next->data == p->data)
             {
+                temp = q->next;
                 q->next = q->next->next;
                 T.elem[T.len++] = p->data+(i+j+1)*100;
-
+                free(temp);
             }
             q = q->next;
             j++;
