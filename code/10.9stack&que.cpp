@@ -1,7 +1,10 @@
 #include <iostream>
-#include <stack>
-#include <queue>
+//#include <stack>
+//#include <queue>
+#include <iomanip>
+
 #pragma GCC optimize(2)
+
 using namespace std;
 
 typedef struct node {
@@ -87,26 +90,29 @@ int main() {
     int temp;
     Qlink q;
     InitQue(q);
-    for (int i = 0; i < 3; ++i) {
-        cin>>temp;
-        InsertQue(q,temp);
+    cin>>temp;
+    for (int i = 0; i < temp; ++i) {
+        InsertQue(q,rand()%100);
     }
     PrintQue(q);
     DelQue(q,temp);
     cout<<endl;
     cout<<temp<<endl;
     PrintQue(q);
+    cout<<endl;
+    //TODO:
     Slink s;
     InitStack(s);
-    for (int i = 0; i < 4; ++i) {
-        cin>>temp;
-        push(s,temp);
+    cin>>temp;
+    for (int i = 0; i < temp; ++i) {
+        push(s,rand()%100);
     }
-    for (int i = 0; i < 4; ++i) {
-        temp = top(s);
-        cout<<temp<<" ";
+    for (int i = 0; i < temp; ++i) {
+        int t = top(s);
+        cout<<t<<" ";
         pop(s);
     }
+    cout<<endl;
 }
 
 
