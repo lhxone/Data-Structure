@@ -27,6 +27,17 @@ void InsertQue(Qlink &q,int n){
     q.rear = p;
 }
 
+void DelQue(Qlink &q,int &e){
+    if (q.front == q.rear){
+        return;
+    }
+    Qnode *p;
+    p = q.front;
+    e = q.front->next->data;
+    q.front = q.front->next;
+    free(p);
+}
+
 void PrintQue(Qlink q){
     Qnode *p;
     p = q.front->next;
@@ -37,6 +48,7 @@ void PrintQue(Qlink q){
 }
 
 int main() {
+    //TODO:队列初始化，插入，删除
     int temp;
     Qlink q;
     InitQue(q);
@@ -44,6 +56,10 @@ int main() {
         cin>>temp;
         InsertQue(q,temp);
     }
+    PrintQue(q);
+    DelQue(q,temp);
+    cout<<endl;
+    cout<<temp<<endl;
     PrintQue(q);
 }
 /*
