@@ -150,6 +150,26 @@
     }
 ```
 
+*****
+
+### 10.9 队列
+
+#### 队列
+
+> 空队列：front == rear
+> 满队列：(rear + 1) % max == front
+
+1. 循环队列的初始化
+    <img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.9.1.png" width="50%">
+
+
+2. 入队
+    <img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.9.2.png" width="50%">
+
+
+3. 出队
+    <img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.9.3.png" width="50%">
+
 
 *****
 
