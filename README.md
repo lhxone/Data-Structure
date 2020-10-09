@@ -176,6 +176,17 @@
 
 *****
 
+### 10.9 上机
+
+#### 栈与队列的基本操作[Sourcecode](https://github.com/lhxone/Data-Structure/blob/master/code/10.9stack&que.cpp)
+
+#### 栈实现计算表达式的值[Sourcecode](https://github.com/lhxone/Data-Structure/blob/master/code/10.9calculate.cpp)
+
+<small><a href="https://www.jianshu.com/p/649c12a80fe8">逆波兰表达式、波兰表达式</a></small>
+
+
+*****
+
 <div align="center">
     <img src="https://github.com/lhxone/Data-Structure/raw/master/img/git.png" alt="静如止水，动如GitHub">
     <h2>别看了，到底了，一滴都不剩了</h2>
