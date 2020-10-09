@@ -15,6 +15,7 @@ typedef struct{
 
 void InitQue(Qlink &q){
     Qnode *p = new (node);
+    p->next = NULL;
     q.rear = q.front = p;
 }
 
