@@ -7,10 +7,10 @@
 
 using namespace std;
 
-stack<char> OPTR;    //运算符栈
-stack<double> OPND;  //操作数栈
+stack<char> OPTR;
+stack<double> OPND;
 
-int getIndex(char theta)   //获取theta所对应的索引
+int getIndex(char theta)
 {
     int index = 0;
     switch (theta)
@@ -58,7 +58,7 @@ char Precede(char theta1, char theta2)
     return priority[index1][index2];
 }
 
-double calculate(double b, char theta, double a)   //计算b theta a
+double calculate(double b, char theta, double a)
 {
     switch (theta)
     {
