@@ -203,7 +203,40 @@
         Triple data[MAXSIZE+1];
         int mu , nu , tu ;   //矩阵行数,列数,非零元个数
     } TSMatrix;
-
+    void ReserveMatrix1(TSMatrix m,TSMatrix &n){        //O(nu*tu)
+        int q;
+        n.tu = m.tu;
+        n.mu = m.nu;
+        n.nu = m.mu;
+        if (m.tu){
+            q = 1;
+            for (int col = 0; col < m.nu; ++col) {        //列遍历
+                for (int j = 0; j < m.tu; ++j) {
+                    if (m.data[j].j == col){
+                        n.data[q].i = m.data[j].j;
+                        n.data[q].j = m.data[j].i;
+                        n.data[q].e = m.data[j].e;
+                        q++;
+                    }
+                }
+            }
+        }
+    }
+    
+    void PrintMatrix(TSMatrix m){
+        int pp=0;
+        for (int i = 0; i < m.mu; ++i) {
+            for (int j = 0; j < m.nu; ++j) {
+                if ((m.data[pp].i == i)&&(m.data[pp].j == j)){
+                    cout<<m.data[pp].e<<" ";
+                    pp++;
+                } else{
+                    cout<<0<<" ";
+                }
+            }
+            cout<<endl;
+        }
+    }
     //Input
     for (int i = 0; i < m.mu ; ++i) {
         for (int j = 0; j < m.nu; ++j) {
