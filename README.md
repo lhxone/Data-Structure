@@ -194,15 +194,15 @@
 ```cpp
 
     //definition
-typedef struct {
-    int  i , j ;
-    int e;
-} Triple;
+    typedef struct {
+        int  i , j ;
+        int e;
+    } Triple;
 
-typedef struct{
-    Triple data[MAXSIZE+1];
-    int mu , nu , tu ;   //矩阵行数,列数,非零元个数
-} TSMatrix;
+    typedef struct{
+        Triple data[MAXSIZE+1];
+        int mu , nu , tu ;   //矩阵行数,列数,非零元个数
+    } TSMatrix;
 
     //Input
     for (int i = 0; i < m.mu ; ++i) {
