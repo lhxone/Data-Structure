@@ -193,7 +193,7 @@
 
 ```cpp
 
-//definition
+    //definition
 typedef struct {
     int  i , j ;
     int e;
