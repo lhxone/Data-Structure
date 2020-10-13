@@ -249,36 +249,7 @@
             }
         }
     }
-    //Output
-    cout<<"矩阵为："<<endl;
-    for (int i = 0; i < m.mu; ++i) {
-        for (int j = 0; j < m.nu; ++j) {
-            if ((m.data[pp].i == i)&&(m.data[pp].j == j)){
-                cout<<m.data[pp].e<<" ";
-                pp++;
-            } else{
-                cout<<0<<" ";
-            }
-        }
-        cout<<endl;
-    }
-    //转置
-    cout<<"转置矩阵为："<<endl;
-    for (int i = 0; i < p; ++i) {
-        swap(m.data[i].i,m.data[i].j);
-    }
-    pp= 0;
-    for (int i = 0; i < m.mu; ++i) {
-        for (int j = 0; j < m.nu; ++j) {
-            if ((m.data[pp].i == i)&&(m.data[pp].j == j)){
-                cout<<m.data[pp].e<<" ";
-                pp++;
-            } else{
-                cout<<0<<" ";
-            }
-        }
-        cout<<endl;
-    }
+    
 ```
 
 
