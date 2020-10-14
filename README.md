@@ -210,7 +210,7 @@
         n.nu = m.mu;
         if (m.tu){
             q = 1;
-            for (int col = 0; col < m.nu; ++col) {        //列遍历
+            for (int col = 0; col < m.nu; ++col) {
                 for (int j = 0; j < m.tu; ++j) {
                     if (m.data[j].j == col){
                         n.data[q].i = m.data[j].j;
@@ -251,6 +251,9 @@
     }
     
 ```
+
+
+*****
 
 
 
