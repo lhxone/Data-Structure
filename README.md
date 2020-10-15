@@ -203,6 +203,8 @@
         Triple data[MAXSIZE+1];
         int mu , nu , tu ;   //矩阵行数,列数,非零元个数
     } TSMatrix;
+
+
     void ReserveMatrix1(TSMatrix m,TSMatrix &n){        //O(nu*tu)
         int q;
         n.tu = m.tu;
@@ -223,6 +225,7 @@
         }
     }
     
+
     void PrintMatrix(TSMatrix m){
         int pp=0;
         for (int i = 0; i < m.mu; ++i) {
@@ -252,7 +255,9 @@
     
 ```
 
-
+```text
+    稀疏矩阵在转置时不能直接交换i，j的值，因为要考虑转置之后的顺序
+```
 *****
 
 
