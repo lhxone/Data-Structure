@@ -230,17 +230,13 @@ double getAnswer(SlinkC &OPTR,Slink &OPND)
     return top(OPND);
 }
 
-void clearstack(Slink s)      //清空栈
+template<class T>
+void clearstack(T s)      //清空栈
 {
     while (!empty(s))
         pop(s);
 }
 
-void clearstack(SlinkC s)      //清空栈
-{
-    while (!empty(s))
-        pop(s);
-}
 
 int main()
 {
