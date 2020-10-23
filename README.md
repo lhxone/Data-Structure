@@ -281,6 +281,8 @@ void PrintMatrix(TSMatrix m){
 
 #### (code)[https://github.com/lhxone/Data-Structure/blob/master/code/10.23BinaryTree.cpp]
 
+<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.23.2.png">
+
 *****
 
 
