@@ -59,15 +59,9 @@ void Mirror(Treenode *node){
     if (node == NULL){
         return;
     }
-    if (node->left&&node->right){
-        swap(node->left,node->right);
-    } else if (node->right == NULL){
-        node->right = node->left;
-        node->left = NULL;
-    } else {
-        node->left = node->right;
-        node->right = NULL;
-    }
+    swap(node->left,node->right);
+    Mirror(node->left);
+    Mirror(node->right);
 }
 
 int TreeDepth(Treenode *node){
