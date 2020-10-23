@@ -283,9 +283,9 @@ void PrintMatrix(TSMatrix m){
 
 |   完成的✅  | 没完成的❌  |
 |  ----  | ----  |
-| 建立BinaryTree  | 无 |
-| 前序遍历  |  |
-| 前序输出  |  |
+| 建立BinaryTree  | 中序遍历 |
+| 前序遍历  | 后序遍历 |
+| 前序输出  | （逆）波兰表达式 |
 
 
 <img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.23.2.png">
