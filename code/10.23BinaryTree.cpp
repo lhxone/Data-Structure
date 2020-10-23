@@ -82,7 +82,7 @@ int leaf(Treenode *node,int &sum){
     if (node==NULL){
         return 0;
     }
-    if (node->left == NULL){
+    if (node->left == NULL&&node->right == NULL){
         sum++;
     }
     if (node->left!=NULL)
