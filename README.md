@@ -267,6 +267,13 @@ void PrintMatrix(TSMatrix m){
     稀疏矩阵在转置时不能直接交换i，j的值，因为要考虑转置之后的顺序
 ```
 
+*****
+
+### 10.23 二叉树BinaryTree
+
+#### 上机任务⬇️
+
+<img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.23.1.png" width="50%">
 
 *****
 
