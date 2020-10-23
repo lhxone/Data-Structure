@@ -279,7 +279,14 @@ void PrintMatrix(TSMatrix m){
 <img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.23.1.png" width="50%">
 
 
-#### (code)[https://github.com/lhxone/Data-Structure/blob/master/code/10.23BinaryTree.cpp]
+#### [Code](https://github.com/lhxone/Data-Structure/blob/master/code/10.23BinaryTree.cpp)
+
+|   完成的✅  | 没完成的❌  |
+|  ----  | ----  |
+| 建立BinaryTree  | 无 |
+| 前序遍历  |  |
+| 前序输出  |  |
+
 
 <img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.23.2.png">
 
