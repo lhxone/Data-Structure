@@ -286,7 +286,7 @@ void PrintMatrix(TSMatrix m){
 | 建立BinaryTree  | 中序遍历 |
 | 前序遍历  | 后序遍历 |
 | 前序输出  | （逆）波兰表达式 |
-
+| 镜像反转  | |
 
 <img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.23.2.png">
 

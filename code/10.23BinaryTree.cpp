@@ -28,84 +28,67 @@ void CreatTree(BiTree &t){
     return;
 }
 
-void BFS(node *pRoot)
+
+void DFS(node* node)
 {
-    if (pRoot==NULL)
-        return;
-
-    queue<node*>Q;
-    Q.push(pRoot);
-
-    while(!Q.empty())
-    {
-
-        node *p = Q.front();
-
-        cout<<p->data<<"->";
-        if (p->left!=NULL)
-        {
-            Q.push(p->left);
-        }
-
-        if (p->right!=NULL)
-        {
-            Q.push(p->right);
-        }
-
-        Q.pop();
-    }
-
-    cout<<endl;
-}
-
-void DFS(node* pRoot)
-{
-    if (pRoot==NULL){
+    if (node==NULL){
         return;;
     }
-    cout<<pRoot->data<<"->";
-    if (pRoot->left!=NULL)
-        DFS(pRoot->left);
-    if (pRoot->right!=NULL)
-        DFS(pRoot->right);
+    cout<<node->data<<"->";
+    if (node->left!=NULL)
+        DFS(node->left);
+    if (node->right!=NULL)
+        DFS(node->right);
 }
 
 void prettyPrintTree(node* node, string prefix = "", bool isLeft = true) {
-    if (node == nullptr) {
+    if (node == NULL) {
         cout << "Empty tree";
         return;
     }
-
     if(node->right) {
         prettyPrintTree(node->right, prefix + (isLeft ? "│   " : "    "), false);
     }
-
     cout << prefix + (isLeft ? "└── " : "┌── ") + node->data + "\n";
-
     if (node->left) {
         prettyPrintTree(node->left, prefix + (isLeft ? "    " : "│   "), true);
     }
 }
 
-int TreeDepth(Treenode * pRoot){
-    if(pRoot==NULL)
+void Mirror(Treenode *node){
+    if (node == NULL){
+        return;
+    }
+    if (node->left&&node->right){
+        swap(node->left,node->right);
+    } else if (node->right == NULL){
+        node->right = node->left;
+        node->left = NULL;
+    } else {
+        node->left = node->right;
+        node->right = NULL;
+    }
+}
+
+int TreeDepth(Treenode *node){
+    if(node==NULL)
         return 0;
-    int left=TreeDepth(pRoot->left)+1;
-    int right=TreeDepth(pRoot->right)+1;
+    int left=TreeDepth(node->left)+1;
+    int right=TreeDepth(node->right)+1;
     return left>right?left:right;
 }
 
-int leaf(Treenode *pRoot,int &sum){
-    if (pRoot==NULL){
+int leaf(Treenode *node,int &sum){
+    if (node==NULL){
         return 0;
     }
-    if (pRoot->left == NULL){
+    if (node->left == NULL){
         sum++;
     }
-    if (pRoot->left!=NULL)
-        leaf(pRoot->left,sum);
-    if (pRoot->right!=NULL)
-        leaf(pRoot->right,sum);
+    if (node->left!=NULL)
+        leaf(node->left,sum);
+    if (node->right!=NULL)
+        leaf(node->right,sum);
     return sum;
 }
 
@@ -119,6 +102,10 @@ int main() {
     leaf(t.root,sum);
     cout<<"叶子个数为："<<sum<<endl;
     cout<<"深度为："<<TreeDepth(t.root)<<endl;
+    Mirror(t.root);
+    DFS(t.root);
+    cout<<endl;
+    prettyPrintTree(t.root);
     return 0;
 }
 //ABD*F***CE***
