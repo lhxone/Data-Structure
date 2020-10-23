@@ -273,6 +273,10 @@ void PrintMatrix(TSMatrix m){
 
 #### 上机任务⬇️
 
+
+!()[https://github.com/lhxone/Data-Structure/raw/master/img/10.23.1.png]
+
+
 <img src="https://github.com/lhxone/Data-Structure/raw/master/img/10.23.1.png" width="50%">
 
 *****
