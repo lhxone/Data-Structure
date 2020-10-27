@@ -292,6 +292,22 @@ void PrintMatrix(TSMatrix m){
 
 *****
 
+### 10.27 
+
+```text
+世界表白日Mark
+```
+
+#### 两种中序遍历的非递归算法
+
+<img src = "https://github.com/lhxone/Data-Structure/raw/master/img/10.27.1.png">
+
+
+<img src = "https://github.com/lhxone/Data-Structure/raw/master/img/10.27.2.png">
+
+
+*****
+
 
 <div align="center">
     <img src="https://github.com/lhxone/Data-Structure/raw/master/img/git.png" alt="静如止水，动如GitHub">
