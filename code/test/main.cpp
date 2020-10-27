@@ -98,7 +98,7 @@ void Inorder(Treenode *node){
         while (cout<<S.top()&&p)
         {
             /* code */
-            
+            //
         }
         
     }
