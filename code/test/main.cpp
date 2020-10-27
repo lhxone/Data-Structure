@@ -106,6 +106,17 @@ void Inorder(Treenode *node){
 
 }
 
+typedef enum PT{Link,Thread};
+
+typedef struct BiThrTree
+{
+    /* data */
+    int data;
+    BiThrTree *left,*right;
+    PT LTag,RTag;
+};
+
+
 int main() {
     int sum=0;      //叶子数量
     BinaryTree t;
