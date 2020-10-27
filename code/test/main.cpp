@@ -89,7 +89,21 @@ int leaf(Treenode *node,int &sum){
 }
 
 void Inorder(Treenode *node){
+    Treenode *p;
+    stack<Treenode*>S;
+    S.push(node);
+    while (!S.empty())
+    {
+        /* code */
+        while (cout<<S.top()&&p)
+        {
+            /* code */
+            
+        }
+        
+    }
     
+
 }
 
 int main() {
