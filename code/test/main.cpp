@@ -1,5 +1,7 @@
 #include <iostream>
 #include <queue>
+#include<stack>
+#pragma GCC optimize(2)
 
 using namespace std;
 
@@ -84,6 +86,10 @@ int leaf(Treenode *node,int &sum){
     if (node->right!=NULL)
         leaf(node->right,sum);
     return sum;
+}
+
+void Inorder(Treenode *node){
+    
 }
 
 int main() {
