@@ -89,7 +89,7 @@ int leaf(Treenode *node,int &sum){
 }
 
 void Inorder(Treenode *node){
-    Treenode *p;
+    Treenode *p = node;
     stack<Treenode*>S;
     S.push(node);
     while (!S.empty())
@@ -98,7 +98,15 @@ void Inorder(Treenode *node){
         while (cout<<S.top()&&p)
         {
             /* code */
-            //
+            S.push(p->left);
+        }
+        S.pop();
+        if (!S.empty())
+        {
+            /* code */
+            S.pop();
+            cout<<p->data<<" ";
+            S.push(p->right);
         }
         
     }
@@ -131,6 +139,7 @@ int main() {
     DFS(t.root);
     cout<<endl;
     prettyPrintTree(t.root);
+    // Inorder(t.root);
     return 0;
 }
 //ABD*F***CE***
