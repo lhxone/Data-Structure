@@ -1,7 +1,5 @@
 # Data-Structure
 
-# 10.24程序员节快乐🍺
-
 
 ![](https://img.shields.io/badge/Lhxone-Ds-00BFFF)
 ![](https://img.shields.io/badge/IMU-green)
