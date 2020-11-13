@@ -10,6 +10,14 @@ typedef struct node{
     node *parent,*left,*right;
 }Treenode,*BiTree;
 
+typedef struct HuffmanNode
+{
+    int data;
+    HuffmanNode *lchild,*rchild;
+    HuffmanNode *next;
+};
+
+
 typedef struct BinaryTree{
     Treenode *root;
     int deepth;
