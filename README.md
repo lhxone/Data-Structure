@@ -27,7 +27,7 @@
 
 *****
 
-#### [自己写的网站，哭着也要改完BUG](https://lhxone.github.io)
+#### [自己写的网站，哭着也要改完BUG](https://lhxone.github.io/#/archives)
 
 *****
 
