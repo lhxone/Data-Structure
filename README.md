@@ -8,6 +8,8 @@
 
 *****
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?lhxone=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 ### This is a notebook written by `Lhxone`, which is used to daily mark the code. 
