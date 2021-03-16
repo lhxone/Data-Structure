@@ -8,10 +8,6 @@
 
 *****
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lhxone&show_icons=true&theme=radical)
-
-
-
 
 
 ### This is a notebook written by `Lhxone`, which is used to daily mark the code. 
